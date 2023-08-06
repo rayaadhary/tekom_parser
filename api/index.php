@@ -255,6 +255,7 @@
 
 
     <?php
+phpinfo();
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $sentence = $_POST["sentence"];
       $inputString = strtolower($sentence) . '#';
